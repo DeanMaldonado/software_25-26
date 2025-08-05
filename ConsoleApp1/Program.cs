@@ -1,2 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!!");
+string name = "bob";
+Console.WriteLine("hello " + name);
+Console.WriteLine($"hello {name}");
+Console.WriteLine("What is your name?");
+name = Console.ReadLine();
+Console.WriteLine($"Nice to meet you {name}");
+string first;
+string last;
+string grade;
+string id;
+Console.WriteLine("What is your first name?");
+first = Console.ReadLine();
+Console.WriteLine("What is your last name?");
+last = Console.ReadLine();
+Console.WriteLine("What is your grade?");
+grade = Console.ReadLine();
+Console.WriteLine("What is your id?");
+id = Console.ReadLine();
+Console.WriteLine($"Haha I stole your information, your name is {first} {last} you are in {grade}th grade and your id is {id}");
